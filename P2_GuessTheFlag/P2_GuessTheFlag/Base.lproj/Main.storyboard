@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCA-jK-Zad">
                                 <rect key="frame" x="107" y="148" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZCA-jK-Zad" secondAttribute="height" multiplier="2:1" id="Tju-P0-KIG"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lsc-2h-QaM"/>
@@ -25,6 +28,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k31-an-W0d">
                                 <rect key="frame" x="107" y="278" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="k31-an-W0d" secondAttribute="height" multiplier="2:1" id="WwA-WW-Pom"/>
+                                </constraints>
                                 <state key="normal" image="germany"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6iu-9K-kVi"/>
@@ -32,6 +38,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBF-Ki-qR5">
                                 <rect key="frame" x="107" y="408" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YBF-Ki-qR5" secondAttribute="height" multiplier="2:1" id="OQ1-oW-l8e"/>
+                                </constraints>
                                 <state key="normal" image="spain"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKR-P3-lCd"/>
@@ -45,8 +54,11 @@
                             <constraint firstItem="k31-an-W0d" firstAttribute="top" secondItem="ZCA-jK-Zad" secondAttribute="bottom" constant="30" id="5Ac-9l-cCs"/>
                             <constraint firstItem="k31-an-W0d" firstAttribute="centerX" secondItem="ZCA-jK-Zad" secondAttribute="centerX" id="L42-g2-akc"/>
                             <constraint firstItem="ZCA-jK-Zad" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Q3n-ka-zqd"/>
+                            <constraint firstItem="k31-an-W0d" firstAttribute="height" secondItem="ZCA-jK-Zad" secondAttribute="height" id="VId-W4-HQr"/>
                             <constraint firstItem="ZCA-jK-Zad" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fJ6-ZM-UPr"/>
+                            <constraint firstItem="YBF-Ki-qR5" firstAttribute="height" secondItem="k31-an-W0d" secondAttribute="height" id="lbo-hf-N0o"/>
                             <constraint firstItem="YBF-Ki-qR5" firstAttribute="centerX" secondItem="k31-an-W0d" secondAttribute="centerX" id="p6H-ta-RUL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="YBF-Ki-qR5" secondAttribute="bottom" constant="20" id="xp8-PY-Bx7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rEZ-5t-pxG"/>
