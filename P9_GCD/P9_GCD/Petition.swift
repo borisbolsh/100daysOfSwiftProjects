@@ -2,7 +2,6 @@
 //  Petition.swift
 //  P9_GCD
 //
-//
 
 import Foundation
 
