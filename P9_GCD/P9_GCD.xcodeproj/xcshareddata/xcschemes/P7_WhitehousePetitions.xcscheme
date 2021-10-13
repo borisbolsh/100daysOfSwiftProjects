@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45F96DC3270C192A00EB0E41"
-               BuildableName = "P7_WhitehousePetitions.app"
+               BuildableName = "P9_GCD.app"
                BlueprintName = "P9_GCD"
                ReferencedContainer = "container:P9_GCD.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45F96DC3270C192A00EB0E41"
-            BuildableName = "P7_WhitehousePetitions.app"
+            BuildableName = "P9_GCD.app"
             BlueprintName = "P9_GCD"
             ReferencedContainer = "container:P9_GCD.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45F96DC3270C192A00EB0E41"
-            BuildableName = "P7_WhitehousePetitions.app"
+            BuildableName = "P9_GCD.app"
             BlueprintName = "P9_GCD"
             ReferencedContainer = "container:P9_GCD.xcodeproj">
          </BuildableReference>
